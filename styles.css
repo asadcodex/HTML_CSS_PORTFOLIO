@@ -20,7 +20,6 @@ body {
 }
 
 p {
-  font-size: 0.9rem;
   line-height: 1.5rem;
 }
 
@@ -89,7 +88,7 @@ section {
 section h2 {
   text-transform: uppercase;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .about-contents {
@@ -101,6 +100,7 @@ section h2 {
 .anchor-text {
   color: var(--color-highlight);
   text-decoration: none;
+  transition-duration: 200ms;
 }
 
 .anchor-text:hover {
