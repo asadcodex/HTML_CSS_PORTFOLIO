@@ -1,250 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asad Web Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Asad Web Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body>
-  <div class="underlay"></div>
-  <header>
-    <a href="/">
-      <h1>Asad Raza</h1>
-    </a>
-    <h4>Full Stack Developer</h4>
-    <p>I build accessible, pixel-perfect digital experiences for the web.</p>
-    <nav>
-      <a>
-        <p>About</p>
+  <body id="top-of-page">
+    <div class="underlay"></div>
+    <header>
+      <a href="/">
+        <h1>Asad Raza</h1>
       </a>
-      <a>
-        <p>Experience</p>
-      </a>
-      <a>
-        <p>Projects</p>
-      </a>
-    </nav>
-    <div>
-      <a>ICON</a>
-      <a>ICON</a>
-      <a>ICON</a>
-      <a>ICON</a>
-      <a>ICON</a>
-      <a>ICON</a>
-    </div>
-  </header>
-  <main>
-    <section>
-      <div>
-        <h2 class="lightText">About</h2>
+      <h4>Full Stack Developer</h4>
+      <p>I build accessible, pixel-perfect digital experiences for the web.</p>
+      <nav>
+        <a class="anchor-text" href="#about">
+          <p>About</p>
+        </a>
+        <a class="anchor-text" href="#experience">
+          <p>Experience</p>
+        </a>
+        <a class="anchor-text" href="#projects">
+          <p>Projects</p>
+        </a>
+      </nav>
+      <div class="social-link-container">
+        <a class="social-link" href="/" target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a class="social-link" href="/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a class="social-link" href="/" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a class="social-link" href="/" target="_blank"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
       </div>
-      <div class="about-contents">
-        <p>
-          Im a developer passionate about crafting accessible,
-          <a target="_blank" class="anchor-text" href="https://brittanychiang.com/">pixel-perfect</a>
-          user interfaces that blend thoughtful design with robust
-          engineering. My favorite work lies at the intersection of design and
-          development, creating experiences.
-        </p>
-        <p>
-          Im a developer passionate about crafting accessible, pixel-perfect
-          user interfaces that blend thoughtful design with robust
-          engineering. My favorite work lies at the intersection of design and
-          development, creating experiences.
-        </p>
-        <p>
-          Im a developer passionate about crafting accessible, pixel-perfect
-          user interfaces that blend thoughtful design with robust
-          engineering. My favorite work lies at the intersection of design and
-          development, creating experiences.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div>
-        <h2 class="lightText">Experience</h2>
-      </div>
-      <div class="experience-contents">
-        <div class="experience-card">
-          <p class="tenure">2024 - present</p>
-          <div class="card-column">
-            <a href="/" target="_blank">
-              <h3 class="anchor-text card-header">
-                Full Stack Developer · Zetene Systems ICON
-              </h3>
-            </a>
-            <p>
-              Im a developer passionate about crafting accessible,
-              pixel-perfect user interfaces that blend thoughtful design with
-              robust engineering. My favorite work lies at the intersection of
-              design and development, creating experiences.
-            </p>
-            <div class="tag-container">
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-            </div>
-          </div>
+    </header>
+    <main>
+      <section id="about">
+        <div class="sticky-header">
+          <h2 class="lightText">About</h2>
         </div>
-        <div class="experience-card">
-          <p class="tenure">2024 - present</p>
-          <div class="card-column">
-            <a href="/" target="_blank">
-              <h3 class="anchor-text card-header">
-                Full Stack Developer · Zetene Systems ICON
-              </h3>
-            </a>
-            <p>
-              Im a developer passionate about crafting accessible,
-              pixel-perfect user interfaces that blend thoughtful design with
-              robust engineering. My favorite work lies at the intersection of
-              design and development, creating experiences.
-            </p>
-            <div class="tag-container">
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-            </div>
-          </div>
+        <div class="about-contents">
+          <p>
+            Im a developer passionate about crafting accessible,
+            <a
+              target="_blank"
+              class="anchor-text"
+              href="https://brittanychiang.com/"
+              >pixel-perfect</a
+            >
+            user interfaces that blend thoughtful design with robust
+            engineering. My favorite work lies at the intersection of design and
+            development, creating experiences.
+          </p>
+          <p>
+            Im a developer passionate about crafting accessible, pixel-perfect
+            user interfaces that blend thoughtful design with robust
+            engineering. My favorite work lies at the intersection of design and
+            development, creating experiences.
+          </p>
+          <p>
+            Im a developer passionate about crafting accessible, pixel-perfect
+            user interfaces that blend thoughtful design with robust
+            engineering. My favorite work lies at the intersection of design and
+            development, creating experiences.
+          </p>
         </div>
-        <div class="experience-card">
-          <p class="tenure">2024 - present</p>
-          <div class="card-column">
-            <a href="/" target="_blank">
-              <h3 class="anchor-text card-header">
-                Full Stack Developer · Zetene Systems ICON
-              </h3>
-            </a>
-            <p>
-              Im a developer passionate about crafting accessible,
-              pixel-perfect user interfaces that blend thoughtful design with
-              robust engineering. My favorite work lies at the intersection of
-              design and development, creating experiences.
-            </p>
-            <div class="tag-container">
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-            </div>
-          </div>
+      </section>
+      <section id="experience">
+        <div class="sticky-header">
+          <h2 class="lightText">Experience</h2>
         </div>
-      </div>
-      <a href="/" class="anchor-text">
-        <p>View Full Resume ICON</p>
-      </a>
-    </section>
-    <section>
-      <div>
-        <h2 class="lightText">Projects</h2>
-      </div>
-      < class="projects-contents">
-        <div class="project-card">
-          <div class="project-image-container">
-            <img src="/public/Screenshot 2024-12-03 191441.png" alt="google">
-          </div>
-          <div class="card-column">
-            <a href="/" target="_blank">
-              <h3 class="anchor-text card-header">
-                Full Stack Developer · Zetene Systems ICON
-              </h3>
-            </a>
-            <p>
-              Im a developer passionate about crafting accessible,
-              pixel-perfect user interfaces that blend thoughtful design with
-              robust engineering. My favorite work lies at the intersection of
-              design and development, creating experiences.
-            </p>
-            <a target="_blank" class="anchor-text project-stat-link" href="/"><i class="fa-solid fa-star"></i>
-              <p>635</p>
-            </a>
-            <div class="tag-container">
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-              <div class="tag">
-                <p>React.JS</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-          <div class="project-card">
-            <div class="project-image-container">
-              <img src="/public/Screenshot 2024-12-03 191441.png" alt="google">
-            </div>
+        <div class="experience-contents">
+          <div class="experience-card">
+            <p class="tenure">2024 - present</p>
             <div class="card-column">
               <a href="/" target="_blank">
                 <h3 class="anchor-text card-header">
-                  Full Stack Developer · Zetene Systems ICON
+                  Full Stack Developer · Zetene Systems <i class="fa-solid fa-arrow-right anchor-icon"></i>
                 </h3>
               </a>
               <p>
@@ -253,7 +105,132 @@
                 robust engineering. My favorite work lies at the intersection of
                 design and development, creating experiences.
               </p>
-              <a target="_blank" class="anchor-text project-stat-link" href="/"><i class="fa-solid fa-star"></i>
+              <div class="tag-container">
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="experience-card">
+            <p class="tenure">2024 - present</p>
+            <div class="card-column">
+              <a href="/" target="_blank">
+                <h3 class="anchor-text card-header">
+                  Full Stack Developer · Zetene Systems <i class="fa-solid fa-arrow-right anchor-icon"></i>
+                </h3>
+              </a>
+              <p>
+                Im a developer passionate about crafting accessible,
+                pixel-perfect user interfaces that blend thoughtful design with
+                robust engineering. My favorite work lies at the intersection of
+                design and development, creating experiences.
+              </p>
+              <div class="tag-container">
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="experience-card">
+            <p class="tenure">2024 - present</p>
+            <div class="card-column">
+              <a href="/" target="_blank">
+                <h3 class="anchor-text card-header">
+                  Full Stack Developer · Zetene Systems <i class="fa-solid fa-arrow-right anchor-icon"></i>
+                </h3>
+              </a>
+              <p>
+                Im a developer passionate about crafting accessible,
+                pixel-perfect user interfaces that blend thoughtful design with
+                robust engineering. My favorite work lies at the intersection of
+                design and development, creating experiences.
+              </p>
+              <div class="tag-container">
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="/" class="anchor-text">
+          <p>View Full Resume <i class="fa-solid fa-arrow-right anchor-icon"></i></p>
+        </a>
+      </section>
+      <section id="projects">
+        <div class="sticky-header">
+          <h2 class="lightText">Projects</h2>
+        </div>
+        <div class="projects-contents">
+          <div class="project-card">
+            <div class="project-image-container">
+              <img
+                src="/public/Screenshot 2024-12-03 191441.png"
+                alt="google"
+              />
+            </div>
+            <div class="card-column">
+              <a href="/" target="_blank">
+                <h3 class="anchor-text card-header">
+                  Full Stack Developer · Zetene Systems
+                  <i class="fa-solid fa-arrow-right anchor-icon"></i>
+                </h3>
+              </a>
+              <p>
+                Im a developer passionate about crafting accessible,
+                pixel-perfect user interfaces that blend thoughtful design with
+                robust engineering. My favorite work lies at the intersection of
+                design and development, creating experiences.
+              </p>
+              <a target="_blank" class="anchor-text project-stat-link" href="/"
+                ><i class="fa-solid fa-star"></i>
                 <p>635</p>
               </a>
               <div class="tag-container">
@@ -278,16 +255,70 @@
               </div>
             </div>
           </div>
-      </div>
+
+          <div class="project-card">
+            <div class="project-image-container">
+              <img
+                src="/public/Screenshot 2024-12-03 191441.png"
+                alt="google"
+              />
+            </div>
+            <div class="card-column">
+              <a href="/" target="_blank">
+                <h3 class="anchor-text card-header">
+                  Full Stack Developer · Zetene Systems <i class="fa-solid fa-arrow-right anchor-icon"></i>
+                </h3>
+              </a>
+              <p>
+                Im a developer passionate about crafting accessible,
+                pixel-perfect user interfaces that blend thoughtful design with
+                robust engineering. My favorite work lies at the intersection of
+                design and development, creating experiences.
+              </p>
+              <a target="_blank" class="anchor-text project-stat-link" href="/"
+                ><i class="fa-solid fa-star"></i>
+                <p>635</p>
+              </a>
+              <div class="tag-container">
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+                <div class="tag">
+                  <p>React.JS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <a href="/" class="project-archive-link">
-          <p>View Full Project Archive <span class="right-arrow">&rarr;</span>
+          <p>
+            View Full Project Archive <span class="right-arrow">&rarr;</span>
           </p>
         </a>
-    </section>
-  </main>
-  <footer>
-    <p>PLACEHOLDERS</p>
-  </footer>
-</body>
-
+      </section>
+    </main>
+    <footer>
+      <p>
+        Loosely designed in Figma and coded in
+        <a href="/" target="_blank" class="anchor-text">Visual Studio</a>
+        <br />Code by yours truly. <br />Built with Next.js and Tailwind CSS,
+        deployed with Vercel. All text is set in the Inter typeface.
+      </p>
+      <a href="#top-of-page" class="scroll-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </footer>
+  </body>
 </html>
